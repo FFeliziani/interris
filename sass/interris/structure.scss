@@ -1,0 +1,10 @@
+body {
+  background-color: #fff;
+  #logo {
+    @extend .col-xs-12;
+    img {
+      margin: 0 auto;
+      display: block;
+    }
+  }
+}
