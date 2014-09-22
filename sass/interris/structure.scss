@@ -2,9 +2,32 @@ body {
   background-color: #fff;
   #logo {
     @extend .col-xs-12;
+    padding: 10px;
     img {
       margin: 0 auto;
       display: block;
+    }
+  }
+  #header {
+    @extend .col-xs-12;
+    border: {
+      top: 4px solid #f1f0df;
+      bottom: 4px solid #f1f0df;
+    }
+    padding: 10px;
+    >div {
+      @extend .col-xs-12;
+      @extend .col-md-8;
+    }
+    >div:first-child, >div:last-child {
+      @extend .col-xs-12;
+      @extend .col-md-2;
+    }
+  }
+  #content {
+    .module {
+      @extend .col-xs-12;
+      @extend .col-md-6;
     }
   }
 }

@@ -2168,7 +2168,7 @@ pre code {
 }
 
 /* line 11, ../../../../../../Ruby200-x64/lib/ruby/gems/2.0.0/gems/bootstrap-sass-3.2.0.2/assets/stylesheets/bootstrap/mixins/_grid-framework.scss */
-.col-xs-1, .col-sm-1, .col-md-1, .col-lg-1, .col-xs-2, .col-sm-2, .col-md-2, .col-lg-2, .col-xs-3, .col-sm-3, .col-md-3, .col-lg-3, .col-xs-4, .col-sm-4, .col-md-4, .col-lg-4, .col-xs-5, .col-sm-5, .col-md-5, .col-lg-5, .col-xs-6, .col-sm-6, .col-md-6, .col-lg-6, .col-xs-7, .col-sm-7, .col-md-7, .col-lg-7, .col-xs-8, .col-sm-8, .col-md-8, .col-lg-8, .col-xs-9, .col-sm-9, .col-md-9, .col-lg-9, .col-xs-10, .col-sm-10, .col-md-10, .col-lg-10, .col-xs-11, .col-sm-11, .col-md-11, .col-lg-11, .col-xs-12, body #logo, .col-sm-12, .col-md-12, .col-lg-12 {
+.col-xs-1, .col-sm-1, .col-md-1, .col-lg-1, .col-xs-2, .col-sm-2, .col-md-2, body #header > div:first-child, body #header > div:last-child, .col-lg-2, .col-xs-3, .col-sm-3, .col-md-3, .col-lg-3, .col-xs-4, .col-sm-4, .col-md-4, .col-lg-4, .col-xs-5, .col-sm-5, .col-md-5, .col-lg-5, .col-xs-6, .col-sm-6, .col-md-6, body #content .module, .col-lg-6, .col-xs-7, .col-sm-7, .col-md-7, .col-lg-7, .col-xs-8, .col-sm-8, .col-md-8, body #header > div, .col-lg-8, .col-xs-9, .col-sm-9, .col-md-9, .col-lg-9, .col-xs-10, .col-sm-10, .col-md-10, .col-lg-10, .col-xs-11, .col-sm-11, .col-md-11, .col-lg-11, .col-xs-12, body #logo, body #header, body #header > div, body #header > div:first-child, body #header > div:last-child, body #content .module, .col-sm-12, .col-md-12, .col-lg-12 {
   position: relative;
   min-height: 1px;
   padding-left: 15px;
@@ -2176,7 +2176,7 @@ pre code {
 }
 
 /* line 27, ../../../../../../Ruby200-x64/lib/ruby/gems/2.0.0/gems/bootstrap-sass-3.2.0.2/assets/stylesheets/bootstrap/mixins/_grid-framework.scss */
-.col-xs-1, .col-xs-2, .col-xs-3, .col-xs-4, .col-xs-5, .col-xs-6, .col-xs-7, .col-xs-8, .col-xs-9, .col-xs-10, .col-xs-11, .col-xs-12, body #logo {
+.col-xs-1, .col-xs-2, .col-xs-3, .col-xs-4, .col-xs-5, .col-xs-6, .col-xs-7, .col-xs-8, .col-xs-9, .col-xs-10, .col-xs-11, .col-xs-12, body #logo, body #header, body #header > div, body #header > div:first-child, body #header > div:last-child, body #content .module {
   float: left;
 }
 
@@ -2236,7 +2236,7 @@ pre code {
 }
 
 /* line 35, ../../../../../../Ruby200-x64/lib/ruby/gems/2.0.0/gems/bootstrap-sass-3.2.0.2/assets/stylesheets/bootstrap/mixins/_grid-framework.scss */
-.col-xs-12, body #logo {
+.col-xs-12, body #logo, body #header, body #header > div, body #header > div:first-child, body #header > div:last-child, body #content .module {
   width: 100%;
 }
 
@@ -2698,7 +2698,7 @@ pre code {
 }
 @media (min-width: 992px) {
   /* line 27, ../../../../../../Ruby200-x64/lib/ruby/gems/2.0.0/gems/bootstrap-sass-3.2.0.2/assets/stylesheets/bootstrap/mixins/_grid-framework.scss */
-  .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12 {
+  .col-md-1, .col-md-2, body #header > div:first-child, body #header > div:last-child, .col-md-3, .col-md-4, .col-md-5, .col-md-6, body #content .module, .col-md-7, .col-md-8, body #header > div, .col-md-9, .col-md-10, .col-md-11, .col-md-12 {
     float: left;
   }
 
@@ -2708,7 +2708,7 @@ pre code {
   }
 
   /* line 35, ../../../../../../Ruby200-x64/lib/ruby/gems/2.0.0/gems/bootstrap-sass-3.2.0.2/assets/stylesheets/bootstrap/mixins/_grid-framework.scss */
-  .col-md-2 {
+  .col-md-2, body #header > div:first-child, body #header > div:last-child {
     width: 16.6666666667%;
   }
 
@@ -2728,7 +2728,7 @@ pre code {
   }
 
   /* line 35, ../../../../../../Ruby200-x64/lib/ruby/gems/2.0.0/gems/bootstrap-sass-3.2.0.2/assets/stylesheets/bootstrap/mixins/_grid-framework.scss */
-  .col-md-6 {
+  .col-md-6, body #content .module {
     width: 50%;
   }
 
@@ -2738,7 +2738,7 @@ pre code {
   }
 
   /* line 35, ../../../../../../Ruby200-x64/lib/ruby/gems/2.0.0/gems/bootstrap-sass-3.2.0.2/assets/stylesheets/bootstrap/mixins/_grid-framework.scss */
-  .col-md-8 {
+  .col-md-8, body #header > div {
     width: 66.6666666667%;
   }
 
@@ -8097,8 +8097,18 @@ button.close {
 body {
   background-color: #fff;
 }
-/* line 5, ../sass/interris/structure.scss */
+/* line 3, ../sass/interris/structure.scss */
+body #logo {
+  padding: 10px;
+}
+/* line 6, ../sass/interris/structure.scss */
 body #logo img {
   margin: 0 auto;
   display: block;
+}
+/* line 11, ../sass/interris/structure.scss */
+body #header {
+  border-top: 4px solid #f1f0df;
+  border-bottom: 4px solid #f1f0df;
+  padding: 10px;
 }
