@@ -1,4 +1,5 @@
 body {
+  font-family: $font-family-base;
   background-color: #fff;
   #logo {
     @extend .col-xs-12;
@@ -28,6 +29,45 @@ body {
     .module {
       @extend .col-xs-12;
       @extend .col-md-6;
+      border: 1px dotted #eee;
+      >h2, >h2>a {
+        color: white;
+        font-family: serif;
+        font-size: 22px;
+        line-height: 33px;
+        text-decoration: none;
+        &:hover {
+          text-decoration: underline;
+          color: #000;
+        }
+      }
+      >div {
+        >h3, >h3>a {
+          font-size: 18px;
+        }
+        >h4 {
+          font-size: 14px;
+        }
+        img {
+          display: block;
+          margin: 10px auto;
+        }
+      }
+      &.red {
+        h2:first-child {
+          @include background-image(linear-gradient(#CB486C, #951525));
+        }
+      }
+      &.yellow {
+        h2:first-child {
+          @include background-image(linear-gradient(#FDDC01, #CCA415));
+        }
+      }
+      &.blue {
+        h2:first-child {
+          @include background-image(linear-gradient(#0759A2, #0A115E));
+        }
+      }
     }
   }
 }
